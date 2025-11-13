@@ -10,7 +10,8 @@ Game::Game(int level) : difficultyLevel(level) {
         case 3: maxNumber = 100; break; // Hard
         default: maxNumber = 10;
     }
-    secretNumber = rand() % maxNumber + 1;
+//VK old working:   secretNumber = rand() % maxNumber + 1;
+    secretNumber = rand() % maxNumber + 10;
 }
 
 int Game::getSecretNumber() const {

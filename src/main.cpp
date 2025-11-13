@@ -72,5 +72,7 @@ int main() {
         }
     }
 
+    std::cout << "Game finished." << std::endl;
+
     return 0;
 }
